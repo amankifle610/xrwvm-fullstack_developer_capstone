@@ -124,3 +124,37 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 70%;
+    height: 60%;
+}
+.image-div{
+    height: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-detail{
+    height: 45%;
+    margin-top: -5px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-image{
+    height: 13em;
+    width: 16em;
+}

@@ -1,0 +1,42 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contact-main">
+    <div class="contact">
+        <div class="image-div"><img src='https://www.cncda.org/wp-content/themes/cncda/images/img07@hd.jpg'
+            /></div>
+        <hr>
+        <div class="contact-detail">
+            <img class="contact-image" src='data:image/png;base64,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'/>
+        <p>contact customer service <br> suport@bestcars.com</p>
+        <div>
+    </div>
+  </div>
+</div>
+</html>
