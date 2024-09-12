@@ -21,7 +21,7 @@ class CarModel(models.Model):
         ('WAGON', 'Wagon'),
         # Add more choices as required
     ]
-    
+
     type = models.CharField(max_length=10, choices=CAR_TYPES, default='SUV')
     year = models.IntegerField(
         default=2023,
@@ -32,4 +32,4 @@ class CarModel(models.Model):
     )
 
     def __str__(self):
-        return f"{self.name} ({self.car_make.name})"  # Return both model and make
+        return f"{self.name} ({self.car_make.name})"
