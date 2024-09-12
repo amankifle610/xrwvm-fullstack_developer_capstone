@@ -1,10 +1,7 @@
 from django.db import models
-from django.utils.timezone import now
 from django.core.validators import MaxValueValidator, MinValueValidator
 
-# Create your models here.
 
-# Car Make model
 class CarMake(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
